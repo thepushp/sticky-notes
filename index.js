@@ -30,7 +30,7 @@ function shownotes() {
         card += `
         <div class="card2 my-2" style="background-image:url(note.png); background-repeat: no-repeat; background-size: 300px 300px; background-color:rgb(255, 253, 253);">
             <h1 style="padding-bottom: 80px; padding-top: 150px;" id="notetitle">Note ${index + 1}</h1>
-                <h4 class="notedt" id="notedt">17-12-2020</h4>
+                //<h4 class="notedt" id="notedt">17-12-2020</h4>
                 <p id="notecontent">${element}</p>
                 <button id="${index}"onclick="deleteNote(this.id)" class="btn btn-primary">Delete Note</button>
         </div>`;
