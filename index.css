@@ -161,6 +161,8 @@ body{
     margin-right: auto;
     text-align: center;
     font-family: arial;
+    word-wrap    : break-word;
+    overflow-wrap: break-word;
   }
   
   .notedt {
@@ -178,6 +180,7 @@ body{
     cursor: pointer;
     width: 100%;
     font-size: 18px;
+    
   }
   
   .card2 button:hover {
@@ -186,3 +189,20 @@ body{
   #notetitle{
       text-transform: capitalize;
   }
+  /* .ico {
+    border-radius: 50%;
+    cursor: pointer;
+    fill: #232323;
+    transition: .4s;
+    
+ }
+ 
+ .liked {
+       transform: scale(2.05) rotate(360deg);
+       background-color: #C62828;
+       padding: .8rem;
+    fill: white;
+ } */
+
+
+ 
